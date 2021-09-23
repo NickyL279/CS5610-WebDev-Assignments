@@ -5,21 +5,23 @@
     <title>Title</title>
 </head>
 <body>
-    <a href="navigation.html">Back</a>
-    <h1>Twitter</h1>
-    <h2>Profile</h2>
-    <img src="bos.png" height="200px" width="100%"/></br>
-    <img src="picsample.jpeg" height="48px"/>
-    <a href="edit-profile.html">Edit profile</a>
-    <h2>WebDev</h2></br>@WebDev
-    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-    <p>Joined September 2021</p>
-    <p>123 Following 234 Followers</p>
-    <ul>
-        <li><a href="tweets.html">Tweets</a></li>
-        <li><a href="tweets-and-replies.html">Tweets & replies</a></li>
-        <li><a href="media.html">Media</a></li>
-        <li><a href="likes.html">Likes</a></li>
-    </ul>
+<a href="navigation.html">Back</a>
+<h1>Twitter</h1>
+<h2>Tweet</h2>
+<img src="picsample.jpeg" width="48px"/>
+<form id="textarea">
+    <label></label>
+    <textarea placeholder="What's happening?"></textarea>
+</form>
+<select id="select-one-genre">
+    <option selected value="EVERYONE">Everyone can reply</option>
+    <option value="FOLLOWING">People you follow</option>
+    <option value="MENTIONED">Only people you mention</option>
+</select>
+<HR>
+<form>
+    <input type="file">
+    <button>Tweet</button>
+</form>
 </body>
 </html>
