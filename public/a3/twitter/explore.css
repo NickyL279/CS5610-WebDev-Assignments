@@ -1,0 +1,124 @@
+a {
+    text-decoration: none;
+}
+
+.wd-twitter-background {
+    background-color: black;
+    padding-left: 16px;
+    margin-top: 0;
+}
+
+.wd-twitter-search-box {
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    width: 582px;
+}
+
+.wd-twitter-search-box .icon {
+    position: absolute;
+    left: 28px;
+    top: 15px;
+    color: white;
+    background-color: darkgray;
+}
+
+.wd-twitter-search-bar {
+    padding-left: 30px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 30px;
+    border-color: black;
+    left: 20px;
+    height: 30px;
+    width: 460px;
+    color: white;
+    background-color: darkgrey;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+}
+
+.wd-twitter-search-gear {
+    float: right;
+    color: rgb(29, 161, 242);
+    padding-top: 15px;
+    padding-right: 12px;
+}
+
+.wd-twitter-hyperlink-highlight {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 16px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(29, 161, 242);
+    border-bottom: 5px solid rgb(29, 161, 242);
+}
+
+.wd-twitter-hyperlink-regular {
+    display: inline-block;
+    padding: 16px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(110, 118, 125);
+}
+
+.wd-twitter-whiteText {
+    color: white;
+}
+
+.wd-twitter-search-box .dots {
+    float: right;
+    color: darkgray;
+    padding-top: 15px;
+    padding-right: 12px;
+}
+
+.wd-twitter-search-box .dot {
+    float: right;
+    color: darkgray;
+    padding-top: 25px;
+}
+
+.wd-twitter-search-box .dot1 {
+    float: right;
+    color: darkgray;
+    padding-top: 12px;
+    padding-right: 12px;
+}
+
+.wd-twitter-suggest-text {
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+    border-top: 1px solid rgb(47, 51, 54);
+}
+
+.wd-twitter-suggest-text1 {
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-twitter-roundPic {
+    border-radius: 15px;
+    float: right;
+    margin-right: 16px;
+}
+
+.wd-twitter-block-de {
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-twitter-pic-overflow {
+    overflow: auto;
+}
