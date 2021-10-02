@@ -8,11 +8,22 @@ a {
     margin-top: 0;
 }
 
-.wd-twitter-search-box {
+.wd-twitter-search-box-c {
     position: relative;
     border-width: 1px;
     border-style: solid;
     border-color: rgb(47, 51, 54);
+    width: 582px;
+}
+
+.wd-twitter-search-box {
+    position: relative;
+    /*border-width: 1px;*/
+    /*border-style: solid;*/
+    /*border-color: rgb(47, 51, 54);*/
+    border-right: 1px solid rgb(47, 51, 54);
+    border-left: 1px solid rgb(47, 51, 54);
+    border-bottom: 1px solid rgb(47, 51, 54);
     width: 582px;
 }
 
@@ -70,7 +81,7 @@ a {
     color: white;
 }
 
-.wd-twitter-search-box .dots {
+.wd-twitter-search-box-c .dots {
     float: right;
     color: darkgray;
     padding-top: 15px;
@@ -113,7 +124,8 @@ a {
 }
 
 .wd-twitter-block-de {
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 20px;
     font-size: 13px;
     color: rgb(110, 118, 125);

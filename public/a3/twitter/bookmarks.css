@@ -1,61 +1,78 @@
 a {
-    text-decoration:none;
+    text-decoration: none;
 }
 
-.wd-twitter-background {
+.wd-page-bookmarks-background {
     background-color: black;
     padding-left: 4px;
     margin-top: 0;
 }
 
-.wd-twitter-box-border {
+.wd-box-border-bookmark {
     border-width: 1px;
     border-style: solid;
     border-color: rgb(47, 51, 54);
     width: 582px;
 }
 
-.wd-twitter-box-border-image {
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(47, 51, 54);
-    width: 504px;
-    position: relative;
-    top: 12px;
+.wd-box-border-bookmark0 {
+    border-left: 1px solid rgb(47, 51, 54);
+    border-right: 1px solid rgb(47, 51, 54);
+    width: 582px;
 }
 
-.wd-twitter-padding-ABCD {
+.wd-box-border-bookmark1 {
+    border-left: 1px solid rgb(47, 51, 54);
+    border-right: 1px solid rgb(47, 51, 54);
+    width: 582px;
+}
+
+.wd-box-border-bookmark2 {
+    border-left: 1px solid rgb(47, 51, 54);
+    border-right: 1px solid rgb(47, 51, 54);
+    border-top: 1px solid rgb(47, 51, 54);
+    width: 582px;
+}
+
+.wd-box-border-bookmark3 {
+    border-left: 1px solid rgb(47, 51, 54);
+    border-right: 1px solid rgb(47, 51, 54);
+    border-bottom: 1px solid rgb(47, 51, 54);
+    width: 582px;
+}
+
+.wd-padding-bookmark-ABCD {
     padding-left: 16px;
     padding-top: 12px;
     padding-bottom: 12px;
 }
-.wd-twitter-box-border .dots {
+
+.wd-box-border-bookmark .dots {
     float: right;
     color: rgb(29, 161, 242);
-    /*padding-top: 15px;*/
     padding-right: 12px;
 }
 
-.wd-twitter-bookmarks {
+.wd-title-bookmarks {
     color: white;
     font-size: 20px;
     font-family: Arial;
     font-weight: bold;
 }
 
-.wd-twitter-handle {
+.wd-handle-bookmarks {
     color: lightgray;
     font-size: 13px;
     font-family: Arial;
 }
 
-.wd-twitter-avatar {
+.wd-avatar-bookmark {
     float: left;
     display: inline-block;
     border-radius: 48px;
 }
 
-.wd-twitter-author-and-handle {
+.wd-author-handle-bookmark {
     max-width: 500px;
     display: inline-block;
     vertical-align: top;
@@ -66,12 +83,23 @@ a {
     font-family: Arial;
 }
 
-.wd-twitter-author-name-white {
+.wd-box-border-image-bookmark {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    width: 504px;
+    position: relative;
+    top: 12px;
+}
+
+
+.wd-author-name-white-bookmark {
     color: white;
     font-weight: bold;
     font-family: Arial;
 }
-.wd-twitter-text-white {
+
+.wd-text-white-bookmark {
     position: relative;
     top: 12px;
     color: white;
@@ -79,48 +107,55 @@ a {
     font-family: Arial;
 }
 
-.wd-twitter-margin-top {
-    margin-top:12px
+.wd-margin-top-bookmark {
+    margin-top: 12px
 }
 
-.wd-twitter-rounded {
-    border-radius: 3%;
+.wd-rounded-bookmark {
+    border-radius: 12px;
 }
 
-.wd-twitter-padding {
+.wd-rounded-bookmark1 {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.wd-padding-bookmark {
     display: inline-block;
     margin: 12px;
 }
 
-.wd-twitter-bold-white-15 {
+.wd-comment-padding-bookmark {
+    padding-left: 18px;
+}
+
+.wd-bold-white-bookmark {
     color: white;
     font-size: 15px;
 }
 
-.wd-twitter-lightgray-15 {
+.wd-lightgray15-bookmark {
     color: lightgray;
     font-size: 15px;
 }
 
-.wd-twitter-lightgray {
+.wd-lightgray-bookmark {
     color: lightgray;
 }
 
-.wd-twitter-red {
+.wd-icon-red-bookmark {
     color: red;
 }
 
-.wd-twitter-flex {
-    padding: 12px;
-    display: flex;
+.wd-flex-bookmark {
     flex: auto;
+    display: flex;
     justify-content: space-around;
+    padding: 8px;
+    padding-top: 12px;
 }
 
-.wd-twitter-padding-left {
+.wd-padding-left-bookmark {
     padding-left: 12px;
-}
-
-.wd-twitter-box {
-    flex:1;
 }
