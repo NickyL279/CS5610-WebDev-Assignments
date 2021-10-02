@@ -1,0 +1,126 @@
+a {
+    text-decoration:none;
+}
+
+.wd-twitter-background {
+    background-color: black;
+    padding-left: 4px;
+    margin-top: 0;
+}
+
+.wd-twitter-box-border {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    width: 582px;
+}
+
+.wd-twitter-box-border-image {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    width: 504px;
+    position: relative;
+    top: 12px;
+}
+
+.wd-twitter-padding-ABCD {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.wd-twitter-box-border .dots {
+    float: right;
+    color: rgb(29, 161, 242);
+    /*padding-top: 15px;*/
+    padding-right: 12px;
+}
+
+.wd-twitter-bookmarks {
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.wd-twitter-handle {
+    color: lightgray;
+    font-size: 13px;
+    font-family: Arial;
+}
+
+.wd-twitter-avatar {
+    float: left;
+    display: inline-block;
+    border-radius: 48px;
+}
+
+.wd-twitter-author-and-handle {
+    max-width: 500px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 12px;
+    padding-right: 16px;
+    color: lightgray;
+    font-size: 15px;
+    font-family: Arial;
+}
+
+.wd-twitter-author-name-white {
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+}
+.wd-twitter-text-white {
+    position: relative;
+    top: 12px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+}
+
+.wd-twitter-margin-top {
+    margin-top:12px
+}
+
+.wd-twitter-rounded {
+    border-radius: 3%;
+}
+
+.wd-twitter-padding {
+    display: inline-block;
+    margin: 12px;
+}
+
+.wd-twitter-bold-white-15 {
+    color: white;
+    font-size: 15px;
+}
+
+.wd-twitter-lightgray-15 {
+    color: lightgray;
+    font-size: 15px;
+}
+
+.wd-twitter-lightgray {
+    color: lightgray;
+}
+
+.wd-twitter-red {
+    color: red;
+}
+
+.wd-twitter-flex {
+    padding: 12px;
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+}
+
+.wd-twitter-padding-left {
+    padding-left: 12px;
+}
+
+.wd-twitter-box {
+    flex:1;
+}
