@@ -1,0 +1,30 @@
+.btn-tweet {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.btn-follow {
+    border-radius: 20px;
+}
+
+.ellipsis-wraper {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
+
+.follow-img-wrapper {
+    border-radius: 25px;
+    object-fit: contain;
+}
+.pa-inherit {
+    padding: inherit;
+}
+
+.spacex-img {
+    width: -webkit-fill-available;
+}
+
+.article-img {
+    border-radius: 10px;
+}
