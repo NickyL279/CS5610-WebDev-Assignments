@@ -24,11 +24,12 @@
 }
 
 .wd-card-img-top-title {
-    position: relative;
+    color: white;
     font-size: xx-large;
     font-weight: bold;
-    color: white;
-    top: 290px;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
 }
 
 ::placeholder {
@@ -36,18 +37,19 @@
     font-weight: 400;
 }
 
-.wd-text-white{
+.wd-text-white {
     color: white;
 }
 
-.wd-text-gray{
+.wd-text-gray {
     color: gray;
 }
 
-.wd-img-col2{
+.wd-img-col2 {
     border-radius: 10px
 }
-.wd-text-col3{
+
+.wd-text-col3 {
     font-size: 14px;
 }
 
