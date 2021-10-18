@@ -1,6 +1,6 @@
-import NavigationSidebar from "../NavigationSidebar";
+import NavigationSidebar from "../NavigationSidebar/index.js";
 import HomeComponent from "./HomeComponent.js";
-import PostSummaryList from "../PostSummaryList";
+import PostSummaryList from "../PostSummaryList/index.js";
 
 (function ($) {
     $('#wd-explore').append(`
