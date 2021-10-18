@@ -1,0 +1,125 @@
+
+.wd-tweet-btn {
+    width: 100%;
+    border-radius: 15px;
+    font-size: 12px;
+    background-color: rgb(29, 161, 242);
+    border-color: rgb(29, 161, 242)
+}
+
+.wd-icon-search {
+    position: relative;
+    margin-left: -15px;
+    left: 25px;
+}
+
+.wd-input-search-bar {
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    margin-right: 15px;
+    padding: 5px;
+    padding-left: 35px;
+    background-color: rgb(22,24,28);
+    border-color: rgb(22,24,28)
+}
+
+.wd-card-img-top {
+    padding: 0px;
+}
+
+.wd-card-border-radius {
+    border-radius: 0px;
+}
+
+.wd-card-border-color {
+    border: black;
+    border-left: 1px solid rgb(22,24,28);
+    border-right: 1px solid rgb(22,24,28);
+    border-bottom: 1px solid rgb(22,24,28);
+}
+
+.wd-box-border-col2 {
+    background-color: black;
+    border-left: 1px solid rgb(22,24,28);
+    border-right: 1px solid rgb(22,24,28);
+}
+
+.wd-box-border-col2-bottom {
+    background-color: black;
+    border-left: 1px solid rgb(22,24,28);
+    border-right: 1px solid rgb(22,24,28);
+    border-bottom: 1px solid rgb(22,24,28);
+}
+
+
+::placeholder {
+    font-weight: 400;
+    color: rgb(98,106,113);
+}
+
+.wd-background-black {
+    background: black;
+}
+
+.wd-text-lightgray {
+    color: lightgray;
+}
+
+.wd-text-white {
+    color: white;
+}
+
+.wd-text-gray {
+    color: gray;
+}
+
+.wd-img-col2 {
+    border-radius: 10px;
+}
+
+.wd-text-col3 {
+    font-size: 14px;
+}
+
+.wd-border-lr {
+    border-left: 1px solid rgb(22,24,28);
+    border-right: 1px solid rgb(22,24,28);
+}
+
+.wd-border-lrb {
+    border-left: 1px solid rgb(22,24,28);
+    border-right: 1px solid rgb(22,24,28);
+    border-bottom: 1px solid rgb(22,24,28);
+}
+
+.wd-highlight {
+    border-bottom: 5px solid rgb(29, 161, 242);
+}
+
+.wd-list-border {
+    border-radius: 35px;
+}
+
+.wd-list-background-border {
+    background-color: rgb(22,24,28);
+    border-bottom: rgb(22,24,28);
+}
+
+.wd-col-font-size {
+    font-size: 14px;
+}
+
+.wd-text-color1 {
+    color: rgb(98,106,113);
+}
+
+.wd-card-img-top-title {
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+

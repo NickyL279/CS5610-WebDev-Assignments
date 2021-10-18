@@ -1,0 +1,161 @@
+a {
+    text-decoration: none;
+}
+
+.wd-page-bookmarks-background {
+    background-color: black;
+    padding-left: 4px;
+    margin-top: 0;
+}
+
+.wd-box-border-bookmark {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    width: 582px;
+}
+
+.wd-box-border-bookmark0 {
+    border-left: 1px solid rgb(47, 51, 54);
+    border-right: 1px solid rgb(47, 51, 54);
+    width: 582px;
+}
+
+.wd-box-border-bookmark1 {
+    border-left: 1px solid rgb(47, 51, 54);
+    border-right: 1px solid rgb(47, 51, 54);
+    width: 582px;
+}
+
+.wd-box-border-bookmark2 {
+    border-left: 1px solid rgb(47, 51, 54);
+    border-right: 1px solid rgb(47, 51, 54);
+    border-top: 1px solid rgb(47, 51, 54);
+    width: 582px;
+}
+
+.wd-box-border-bookmark3 {
+    border-left: 1px solid rgb(47, 51, 54);
+    border-right: 1px solid rgb(47, 51, 54);
+    border-bottom: 1px solid rgb(47, 51, 54);
+    width: 582px;
+}
+
+.wd-padding-bookmark-ABCD {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.wd-box-border-bookmark .dots {
+    float: right;
+    color: rgb(29, 161, 242);
+    padding-right: 12px;
+}
+
+.wd-title-bookmarks {
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.wd-handle-bookmarks {
+    color: lightgray;
+    font-size: 13px;
+    font-family: Arial;
+}
+
+.wd-avatar-bookmark {
+    float: left;
+    display: inline-block;
+    border-radius: 48px;
+}
+
+.wd-author-handle-bookmark {
+    max-width: 500px;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 12px;
+    padding-right: 16px;
+    color: lightgray;
+    font-size: 15px;
+    font-family: Arial;
+}
+
+.wd-box-border-image-bookmark {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    width: 504px;
+    position: relative;
+    top: 12px;
+}
+
+
+.wd-author-name-white-bookmark {
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.wd-text-white-bookmark {
+    position: relative;
+    top: 12px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+}
+
+.wd-margin-top-bookmark {
+    margin-top: 12px
+}
+
+.wd-rounded-bookmark {
+    border-radius: 12px;
+}
+
+.wd-rounded-bookmark1 {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.wd-padding-bookmark {
+    display: inline-block;
+    margin: 12px;
+}
+
+.wd-comment-padding-bookmark {
+    padding-left: 18px;
+}
+
+.wd-bold-white-bookmark {
+    color: white;
+    font-size: 15px;
+}
+
+.wd-lightgray15-bookmark {
+    color: lightgray;
+    font-size: 15px;
+}
+
+.wd-lightgray-bookmark {
+    color: lightgray;
+}
+
+.wd-icon-red-bookmark {
+    color: red;
+}
+
+.wd-flex-bookmark {
+    flex: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    padding-top: 12px;
+}
+
+.wd-padding-left-bookmark {
+    padding-left: 12px;
+}
