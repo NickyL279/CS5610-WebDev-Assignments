@@ -1,15 +1,16 @@
-import NavigationComponent from "./NavigationComponent.js";
-import Buttons from "./Buttons.js";
-
 const NavigationSidebar = (active) => {
     return (`            <div class="list-group">
                 <a class="list-group-item list-group-item-action">
                     <i class="fab fa-twitter pe-2"></i></a>
-                ${Buttons
-        .map((elem) => {
-            return NavigationComponent(elem, active);
-        })
-        .join("")}
+<a class="list-group-item ${active === 'home' ? 'active' : ''} list-group-item-action
+                d-flex align-items-center" href="../HomeScreen/index.html">
+                    <i class="fa fa-home pe-2"></i>
+                    <span class="d-none d-xl-block">Home</span></a>
+                    
+                    <a class="list-group-item ${active === 'explore' ? 'active' : ''} list-group-item-action
+                d-flex align-items-center" href="../ExploreScreen/explore.html">
+                    <i class="fa fa-hashtag pe-2"></i>
+                    <span class="d-none d-xl-block">Explore</span></a>
                 <a class="list-group-item list-group-item-action
                 d-flex align-items-center">
                     <i class="fa fa-bell pe-2"></i>
