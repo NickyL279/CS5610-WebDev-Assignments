@@ -134,7 +134,7 @@ console.log(four);
 const string3 = stringArray1.find(a => a === 'string3');
 console.log(string3);
 
-console.log('Find Index');
+console.log('Find Build');
 const fourIndex = numberArray1
     .findIndex(a => a === 4);
 console.log(fourIndex);
@@ -270,4 +270,22 @@ const showHandler = () => {
 }
 hideBtn.click(hideHandler);
 showBtn.click(showHandler);
+
+let sc = {
+    xi: 'fv',
+    gu: 'xe'
+}
+let jm = {
+    gu: 'cr',
+    yd: 'um',
+    ...sc,
+}
+sc = {
+    ...jm,
+    cf: 'xg',
+    co: 'kd'
+}
+console.log(sc.xi)
+console.log(jm.gu)
+console.log(sc.yd)
 

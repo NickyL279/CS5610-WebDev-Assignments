@@ -31,7 +31,7 @@
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v5.1.2): util/index.js
+   * Bootstrap (v5.1.2): util/Build.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    * --------------------------------------------------------------------------
    */
