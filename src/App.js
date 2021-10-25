@@ -30,6 +30,8 @@ import HelloWorld from "./components/a6/HelloWorld";
 import Practice from "./components/a6/Practice";
 import Build from "./components/a6/Build/Build";
 import {BrowserRouter, Route} from "react-router-dom";
+import ExploreScreen from "./components/a6/Build/ExploreScreen/ExploreScreen";
+import HomeScreen from "./components/a6/Build/HomeScreen/HomeScreen";
 
 function App() {
     return (
@@ -44,6 +46,9 @@ function App() {
                 <Route path="/a6/build" exact={true}>
                     <Build/>
                 </Route>
+                <Route path="/a6/twitter/home" component={HomeScreen}/>
+                <Route path="/a6/twitter/explore" component={ExploreScreen}/>
+
 
             </div>
         </BrowserRouter>

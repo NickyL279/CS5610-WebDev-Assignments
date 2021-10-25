@@ -1,9 +1,11 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import NavigationSidebar from "./NavigationSidebar";
+import ExploreScreen from "./ExploreScreen/ExploreScreen";
+import "./explore.css"
+import HomeScreen from "./HomeScreen/HomeScreen";
 
 const Build = () => {
-    return(
+    return (
         <>
             <h1>Build</h1>
             <Link to="/a6/hello">
@@ -12,9 +14,12 @@ const Build = () => {
             <Link to="/a6/practice">
                 Practice
             </Link>
-            <NavigationSidebar active="home"/>
+            {/*<NavigationSidebar active="home"/>*/}
+            {/*<PostSummaryList />*/}
+            {/*<WhoToFollowList />*/}
+            <ExploreScreen/>
+            {/*<HomeScreen/>*/}
         </>
-
     )
 };
 

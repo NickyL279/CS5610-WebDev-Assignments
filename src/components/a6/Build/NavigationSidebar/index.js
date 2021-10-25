@@ -1,23 +1,24 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 const NavigationSidebar = ({active = 'explore'}) => {
     return (
         <>
             <div className="list-group">
-                <a className="list-group-item list-group-item-action">
-                    <i className="fab fa-twitter pe-2"/></a>
-
-                <a className={`list-group-item list-group-item-action d-flex
+                <Link to="/a6/" className="list-group-item list-group-item-action">
+                    <i className="fab fa-twitter pe-2"/>
+                </Link>
+                <Link to="/a6/twitter/home" className={`list-group-item list-group-item-action d-flex
                    align-items-center ${active === 'home' ? 'active' : ''}`}
-                   href="../HomeScreen/index.html">
+                      href="../HomeScreen/index.html">
                     <i className=" fa fa-home pe-2"/>
-                    <span className=" d-none d-xl-block">Home</span></a>
-
-                <a className={`list-group-item list-group-item-action d-flex
+                    <span className=" d-none d-xl-block">Home</span></Link>
+                <Link to="/a6/twitter/explore"
+                      className={`list-group-item list-group-item-action d-flex
                    align-items-center ${active === 'explore' ? 'active' : ''}`}
                    href="../ExploreScreen/explore.html">
                     <i className=" fa fa-hashtag pe-2"/>
-                    <span className=" d-none d-xl-block">Explore</span></a>
+                    <span className=" d-none d-xl-block">Explore</span></Link>
                 <a className=" list-group-item list-group-item-action d-flex align-items-center">
                     <i className=" fa fa-bell pe-2"/>
                     <span className=" d-none d-xl-block">Notifications</span></a>

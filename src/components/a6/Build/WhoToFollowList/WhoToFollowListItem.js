@@ -1,30 +1,24 @@
-const WhoToFollowItem = (who) => {
-    return `
-    <li class="list-group-item">
-      <div class="d-flex w-100 justify-content-between">
-        <div class="d-flex">
-          <div class="pe-2">
-            <img
-              class="rounded-circle"
-              src="${who.avatarIcon}"
-              width="50px"
-              height="50px"
-            />
-          </div>
-          <div>
-            <div class="d-flex align-items-center">
-              <spn class="pe-1 fw-bolder">${who.userName}</spn>
-              <i class="fa fa-check-circle"></i>
-            </div>
-            <div>@${who.handle}</div>
-          </div>
-        </div>
-        <div class="d-flex align-items-center">
-          <button class="btn btn-primary rounded-pill">Follow</button>
-        </div>
-      </div>
-    </li>
-`;
-};
+const WhoToFollowListItem = ({who}) => {
+    return (
+        <>
+            <li className="list-group-item">
+                <div className="row align-items-center">
+                    <div className="col-lg-2 col-xl-2">
+                        <img className="rounded-circle" src={who.avatarIcon} width="48"
+                             height="48"/>
+                    </div>
+                    <div className="col-lg-6 col-xl-7 wd-text-col3">
+                        <span className="fw-bold">{who.userName}</span>
+                        <i className="fas fa-check-circle"/><br/>
+                        <span>@{who.handle}</span>
+                    </div>
+                    <div className="col-lg-4 col-xl-3">
+                        <button className="btn btn-primary rounded-pill">Follow</button>
+                    </div>
+                </div>
+            </li>
+        </>
+    );
+}
 
-export default WhoToFollowItem;
+export default WhoToFollowListItem;
