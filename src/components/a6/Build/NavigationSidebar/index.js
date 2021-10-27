@@ -10,13 +10,13 @@ const NavigationSidebar = ({active = 'explore'}) => {
                 </Link>
                 <Link to="/a6/twitter/home" className={`list-group-item list-group-item-action d-flex
                    align-items-center ${active === 'home' ? 'active' : ''}`}
-                      href="../HomeScreen/index.html">
+                      href="#">
                     <i className=" fa fa-home pe-2"/>
                     <span className=" d-none d-xl-block">Home</span></Link>
                 <Link to="/a6/twitter/explore"
                       className={`list-group-item list-group-item-action d-flex
                    align-items-center ${active === 'explore' ? 'active' : ''}`}
-                   href="../ExploreScreen/explore.html">
+                   href="#">
                     <i className=" fa fa-hashtag pe-2"/>
                     <span className=" d-none d-xl-block">Explore</span></Link>
                 <a className=" list-group-item list-group-item-action d-flex align-items-center">
