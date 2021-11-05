@@ -1,0 +1,22 @@
+import owner from './data/profile.json';
+
+const profile = (state = owner, action) => {
+    switch (action.type) {
+        case 'profile-edit':
+            return {
+                _id: (new Date()).getTime() + '',
+                ...state,
+                name: action.nameNew,
+                bio: action.bioNew,
+                location: action.locationNew,
+                website: action.websiteNew,
+                dateOfBirth: action.dobNew,
+                handle: action.nameNew.toLowerCase()
+            }
+
+        default:
+            return state;
+    }
+};
+
+export default profile;

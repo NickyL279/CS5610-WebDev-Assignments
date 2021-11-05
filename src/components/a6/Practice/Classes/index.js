@@ -1,6 +1,6 @@
 import React from "react";
 import './index.css';
-// const Build = () => {
+// const Index = () => {
 //     return(
 //         <div>
 //             <h2>Classes</h2>
@@ -13,7 +13,7 @@ import './index.css';
 //         </div>
 //     )
 // };
-// const Build = () => {
+// const Index = () => {
 //     const color = 'blue';
 //     return(
 //         <div>

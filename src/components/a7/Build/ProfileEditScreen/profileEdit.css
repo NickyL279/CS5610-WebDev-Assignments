@@ -1,0 +1,25 @@
+.wd-twitter-input-textarea {
+    color: white;
+    background: black;
+}
+
+.wd-twitter-profile-edit-edit-profile {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+}
+
+.wd-twitter-profile-edit-save-button {
+    color: black;
+    background-color: lightgrey;
+    font-weight: bold;
+}
+
+.wd-twitter-inputBox {
+    border: grey solid 1px;
+}
+
+.wd-twitter-profile-box-attribute {
+    font-size: 12px;
+}

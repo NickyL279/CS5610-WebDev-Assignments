@@ -12,7 +12,7 @@ const PostSummaryItem = (posts) => {
                 <p class="mb-0 fw-bold"> ${posts.title} </p>
             </div>
             <div>
-                <img class="ps-1 wd-img-col2" height="100px" src=${posts.image}/>
+                <img class="ps-1 wd-img-col2" height="100px" src=${posts.image}>
             </div>
         </div>
     </li>
