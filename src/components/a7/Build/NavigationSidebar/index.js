@@ -1,14 +1,14 @@
 import React from "react";
 import {Link} from "react-router-dom";
+
 const NavigationSidebar = (
     {
         active = 'explore'
     }) => {
-    return(
+    return (
         <>
             <div className="list-group">
-                <Link to="/a7"
-                      className="list-group-item">
+                <Link to="/a7" className="list-group-item">
                     <i className="fab fa-twitter"/>
                 </Link>
                 <Link to="/a7/twitter/home"
@@ -41,11 +41,11 @@ const NavigationSidebar = (
                     <i className="fa fa-list"/>
                     <span className="d-none d-xl-inline">Lists</span>
                 </a>
-                <a className={`list-group-item ${active === 'profile' ? 'active' : ''}`}
-                   href="profile.html">
+                <Link to="/a7/twitter/profile"
+                      className={`list-group-item ${active === 'profile' ? 'active' : ''}`}>
                     <i className="fa fa-user"/>
                     <span className="d-none d-xl-inline">Profile</span>
-                </a>
+                </Link>
                 <a className={`list-group-item ${active === 'more' ? 'active' : ''}`}
                    href="more.html">
                     <span className="fa-stack">
@@ -56,8 +56,7 @@ const NavigationSidebar = (
                 </a>
             </div>
             <div className="d-grid mt-2">
-                <a href="tweet.html"
-                   className="btn btn-primary btn-block rounded-pill">
+                <a href="tweet.html" className="btn btn-primary btn-block rounded-pill">
                     Tweet
                 </a>
             </div>
