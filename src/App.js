@@ -7,6 +7,8 @@ import Practice from "./components/a7/Practice";
 import Build from "./components/a7/Build";
 import A6Practice from "./components/a6/Practice";
 import A6Build from "./components/a6/Build";
+import A8Practice from "./components/a8/Practice"
+import A8Build from "./components/a8/Build"
 import React from "react";
 
 function App() {
@@ -28,6 +30,12 @@ function App() {
                 <Route path="/a7/twitter">
                     <Build/>
                 </Route>
+                <Route path={["/a8", "/a8/practice"]} exact={true}>
+                    <A8Practice/>
+                </Route>
+                <Route path="/a8/twitter">
+                    <A8Build/>
+                </Route>
             </div>
             <Link to="/a6/hello">
                 | A6Hello |
@@ -46,6 +54,18 @@ function App() {
             </Link>
             <Link to="/a7/twitter/profile">
                 | A7 Profile ｜
+            </Link>
+            <Link to="/a8/practice">
+                | A8 Practice |
+            </Link>
+            <Link to="/a8/twitter/home">
+                | A8 Home ｜
+            </Link>
+            <Link to="/a8/twitter/explore">
+                | A8 Explore ｜
+            </Link>
+            <Link to="/a8/twitter/profile">
+                | A8 Profile ｜
             </Link>
         </BrowserRouter>
 

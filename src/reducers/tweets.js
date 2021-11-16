@@ -45,6 +45,11 @@ const tweets = (state = posts, action) => {
                 ]
             );
             break;
+
+        case 'fetch-all-tweets':
+            return action.tweets
+            break;
+
         default:
             return (state);
     }

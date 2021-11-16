@@ -1,0 +1,42 @@
+.wd-title-color {
+    color: white;
+}
+
+.wd-content-position {
+    position: relative;
+    bottom: 50px;
+}
+
+.wd-twitter-profileImage {
+    border-radius: 50%;
+    border: black solid 4px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 10px;
+    /*bottom: 50px;*/
+}
+
+.wd-twitter-editButton {
+    position: relative;
+    top: 60px;
+    float: right;
+    background-color: black;
+    border: grey solid 1px;
+    color: white;
+}
+
+.wd-twitter-userNameHandle {
+    position: relative;
+    left: 10px;
+    /*bottom: 50px;*/
+}
+
+.wd-twitter-userNameFont {
+    font-size: 22px;
+    color: whitesmoke;
+}
+
+.wd-twitter-bio {
+    color: whitesmoke;
+}
