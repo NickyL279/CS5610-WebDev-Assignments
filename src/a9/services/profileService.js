@@ -1,5 +1,4 @@
-//const PROFILE_API = 'http://localhost:4000/api/profile';
-const PROFILE_API = 'https://zliu-node-on-heroku.herokuapp.com/api/profile';
+const PROFILE_API = 'http://localhost:4000/api/profile';
 
 export const fetchCurrentProfile = (dispatch) =>
     fetch(PROFILE_API)

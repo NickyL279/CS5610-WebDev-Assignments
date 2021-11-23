@@ -89,7 +89,7 @@ const MovieApiClient = () => {
     const [movie, setMovie] = useState({_id: (new Date()).getTime().toString(), title: '', stars: 2.5});
     //const [movie, setMovie] = useState({_id: Math.random()*500, title: '', stars: 2.5});
     useEffect(() =>
-                  fetch('https://zliu-node-on-heroku.herokuapp.com/api/movies')
+                  fetch('http://localhost:4000/api/movies')
                       .then(response => response.json())
                       .then(movies => setMovies(movies))
         , []
@@ -108,7 +108,7 @@ const MovieApiClient = () => {
 
     const createMovieClickHandler = () =>
         //console.log("createMovieClickHandler from client: ");
-        fetch('https://zliu-node-on-heroku.herokuapp.com/api/movies', {
+        fetch('http://localhost:4000/api/movies', {
             method: 'POST',
             body: JSON.stringify(movie),
             headers: {
@@ -122,7 +122,7 @@ const MovieApiClient = () => {
 
     const deleteMovie = (movie) =>
         //console.log("deleteMovie from client: ");
-        fetch(`https://zliu-node-on-heroku.herokuapp.com/api/movies/${movie._id}`, {
+        fetch(`http://localhost:4000/api/movies/${movie._id}`, {
             method: 'DELETE'
         })
             .then(response => response.json())
@@ -130,7 +130,7 @@ const MovieApiClient = () => {
 
     const saveMovie = () =>
         //console.log("saveMovie from client: ");
-        fetch(`https://zliu-node-on-heroku.herokuapp.com/api/movies/${movie._id}`, {
+        fetch(`http://localhost:4000/api/movies/${movie._id}`, {
             method: 'PUT',
             body: JSON.stringify(movie),
             headers: {
