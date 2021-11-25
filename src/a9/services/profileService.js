@@ -1,6 +1,6 @@
-const PROFILE_API = 'http://localhost:4000/api/profile';
+const PROFILE_API = 'http://localhost:4000/rest/profile';
 
-export const fetchCurrentProfile = (dispatch) =>
+export const fetchProfile = (dispatch) =>
     fetch(PROFILE_API)
         .then(response => response.json())
         .then(profile =>
@@ -10,14 +10,15 @@ export const fetchCurrentProfile = (dispatch) =>
                            })
         );
 
-export const updateCurrentProfile = (dispatch, newProfile) =>
-    fetch(PROFILE_API, {
+export const updateProfile = (dispatch, newProfile) =>
+    fetch(`${PROFILE_API}/${newProfile._id}`, {
         method: 'PUT',
         body: JSON.stringify(newProfile),
         headers: {
             'content-type': 'application/json'
         }
     })
+        .then(response => response.json())
         .then(profile =>
                   dispatch({
                                type: 'edit-profile-name',

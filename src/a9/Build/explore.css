@@ -1,0 +1,58 @@
+
+
+.wd-tweet-btn {
+    width: 100%;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.wd-icon-search {
+    position: relative;
+    margin-left: -15px;
+    left: 25px;
+}
+
+.wd-input-search-bar {
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    margin-right: 15px;
+    padding: 5px;
+    padding-left: 35px;
+}
+
+.wd-card-img-top {
+    padding: 0px;
+}
+
+.wd-card-img-top-title {
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+
+::placeholder {
+    color: gray;
+    font-weight: 400;
+}
+
+.wd-text-white {
+    color: white;
+}
+
+.wd-text-gray {
+    color: gray;
+}
+
+.wd-img-col2 {
+    border-radius: 10px
+}
+
+.wd-text-col3 {
+    font-size: 14px;
+}
+
+
+

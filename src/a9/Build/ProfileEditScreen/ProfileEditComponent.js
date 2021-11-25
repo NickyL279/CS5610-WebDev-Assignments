@@ -3,7 +3,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {Link} from "react-router-dom";
 import "./profileEdit.css";
 import "../ProfileScreen/profile.css";
-import {updateCurrentProfile} from "../../../../services/profileService";
+import {updateProfile} from "../../services/profileService";
 
 const selectAllProfile = (state) => state.profile;
 
@@ -18,12 +18,16 @@ const ProfileEditComponent = () => {
     const [dateOfBirth, setDOB] = useState(profile.dateOfBirth);
 
     const saveProfile = () => {
-        updateCurrentProfile(dispatch, {
-            nameNew: name,
-            bioNew: bio,
-            locationNew: location,
-            websiteNew: website,
-            dobNew: dateOfBirth
+        console.log(profile._id);
+        console.log(profile.name);
+        console.log(profile.nameNew);
+        updateProfile(dispatch, {
+            ...profile,
+            name: name,
+            bio: bio,
+            location: location,
+            website: website,
+            dateOfBirth: dateOfBirth
         });
     }
 
@@ -31,7 +35,7 @@ const ProfileEditComponent = () => {
         <>
             <div className="row align-items-center">
                 <div className="col-1 ">
-                    <Link to="/a8/twitter/profile">
+                    <Link to="/a9/twitter/profile">
                         <i className="fas fa-times wd-title-color"/>
                     </Link>
                 </div>
@@ -39,7 +43,7 @@ const ProfileEditComponent = () => {
                     <span className="fw-bolder wd-title-color">Edit Profile</span>
                 </div>
                 <div className="col-2">
-                    <Link to="/a8/twitter/profile">
+                    <Link to="/a9/twitter/profile">
                         <button className="btn btn-light rounded-pill " onClick={saveProfile}>
                             Save
                         </button>

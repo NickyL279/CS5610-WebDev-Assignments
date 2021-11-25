@@ -1,5 +1,5 @@
 import {useDispatch} from "react-redux";
-import {likeTweet} from "../../../../services/twitterService";
+import {likeTweet} from "../../services/twitterService";
 
 const TweetStats = ({tweet}) => {
     const dispatch = useDispatch();
@@ -22,8 +22,7 @@ const TweetStats = ({tweet}) => {
 
             <div className="col" onClick={likeClickHandler}>
                 {
-                    tweet.liked && <i className="fas fa-heart me-2"
-                                      style={{color: tweet.liked ? "red" : "white"}}/>
+                    tweet.liked && <i className="fas fa-heart me-2" style={{color: tweet.liked ? "red" : "white"}}/>
                 }
                 {
                     !tweet.liked && <i className="far fa-heart me-2"/>

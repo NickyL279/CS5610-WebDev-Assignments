@@ -9,6 +9,7 @@ import A6Practice from "./components/a6/Practice";
 import A6Build from "./components/a6/Build";
 import A8Practice from "./components/a8/Practice"
 import A8Build from "./components/a8/Build"
+import A9Build from "./a9/Build"
 import React from "react";
 import A9 from "./a9";
 
@@ -39,6 +40,9 @@ function App() {
                 </Route>
                 <Route path="/a9/practice">
                     <A9/>
+                </Route>
+                <Route path="/a9/twitter">
+                    <A9Build/>
                 </Route>
             </div>
             <Link to="/a6/hello">
@@ -72,7 +76,15 @@ function App() {
                 | A8 Profile ｜
             </Link>
             <Link to="/a9/practice">| A9 Practice |</Link>
-
+            <Link to="/a9/twitter/home">
+                | A9 Home ｜
+            </Link>
+            <Link to="/a9/twitter/explore">
+                | A9 Explore ｜
+            </Link>
+            <Link to="/a9/twitter/profile">
+                | A9 Profile ｜
+            </Link>
         </BrowserRouter>
 
     );

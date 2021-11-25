@@ -1,7 +1,7 @@
 import React from "react";
 import {Route} from "react-router-dom";
 import Practice from "./Practice";
-// import Build from "./Build";
+import Build from "./Build";
 
 const A9 = () => {
     return(
@@ -9,9 +9,9 @@ const A9 = () => {
             <Route path="/a9/practice" exact={true}>
                 <Practice/>
             </Route>
-            {/*<Route path="/a9/twitter">*/}
-            {/*    <Build/>*/}
-            {/*</Route>*/}
+            <Route path="/a9/twitter">
+                <Build/>
+            </Route>
         </div>
     )
 }

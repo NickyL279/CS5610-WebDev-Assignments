@@ -1,18 +1,21 @@
 import React, {useEffect} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import TweetListItem from "./TweetListItem";
-import {fetchAllTweets} from "../../../../services/twitterService";
+import {fetchAllTweets} from "../../services/twitterService";
 
 const selectAllTweets = (state) => state.tweets;
 
 const TweetList = () => {
     const tweets = useSelector(selectAllTweets);
     const dispatch = useDispatch();
-    useEffect(() => fetchAllTweets(dispatch), [])
+
+    useEffect(() => fetchAllTweets(dispatch), []);
+
     return(
-        <ul className="list-group">
+        <ul className="list-group mt-2">
             {
-                tweets.map(tweet => <TweetListItem tweet={tweet}/>
+                tweets.map(tweet =>
+                               <TweetListItem tweet={tweet}/>
                 )
             }
         </ul>
